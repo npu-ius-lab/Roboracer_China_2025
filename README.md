@@ -2,8 +2,7 @@
 
 **2025“申达杯”智能无人系统应用挑战赛 Roboracer China 冠军方案**
 
-本仓库为 **NPU-IUSL-TianRacer 战队** 在 *Roboracer China 2025 申达杯* 比赛中的开源代码，包含完整的 ​**TianRacer 仿真环境**​，可用于算法验证、竞速策略开发以及实际演示。
-原理见方案讲解[视频](https://www.bilibili.com/video/BV19X8bzeEmM/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5d9cf3e3921d7da31c8da8e1fae6b79b)。
+本仓库为 **NPU-IUSL-TianRacer 战队** 在 *Roboracer China 2025 申达杯* 比赛中的开源代码，包含完整的 ​**TianRacer 仿真环境**​，可用于算法验证、竞速策略开发以及实际演示。原理见方案讲解[视频](https://www.bilibili.com/video/BV19X8bzeEmM/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5d9cf3e3921d7da31c8da8e1fae6b79b)。
 
 本项目基于 ​**ROS + Gazebo**​，提供可直接运行的多车仿真、路径规划与竞速控制程序。
 你可以直接运行我们的 baseline，也可以替换控制代码实现自己的竞速策略。
