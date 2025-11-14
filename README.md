@@ -1,8 +1,8 @@
-# Roboracer China 2025 — NPU TianRacer Team
+# Roboracer China 2025 — NPU-IUSL-TianRacer Team
 
 **申达杯·Roboracer China 2025**
 
-本仓库为 **NPU-TianRacer 战队** 在 *Roboracer China 2025 申达杯* 比赛中的开源代码，包含完整的 ​**TianRacer 仿真环境**​，可用于算法验证、竞速策略开发以及实际演示。
+本仓库为 **NPU-IUSL-TianRacer 战队** 在 *Roboracer China 2025 申达杯* 比赛中的开源代码，包含完整的 ​**TianRacer 仿真环境**​，可用于算法验证、竞速策略开发以及实际演示。
 
 本项目基于 ​**ROS + Gazebo**​，提供可直接运行的多车仿真、路径规划与竞速控制程序。
 你可以直接运行我们的 baseline，也可以替换控制代码实现自己的竞速策略。
