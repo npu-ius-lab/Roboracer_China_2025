@@ -1,10 +1,10 @@
-# Roboracer China 2025 — NPU-IUSL-TianRacer Team
+# Roboracer China 2025 — NPU-FSD-TianRacer Team
 
 **2025“申达杯”智能无人系统应用挑战赛 Roboracer China 冠军方案**
 
-本仓库为 **NPU-IUSL-TianRacer 战队** 在 *Roboracer China 2025 申达杯* 比赛中的开源代码，包含完整的 ​**TianRacer 仿真环境**​，可用于算法验证、竞速策略开发以及实际演示。原理见方案讲解[视频](https://www.bilibili.com/video/BV19X8bzeEmM/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5d9cf3e3921d7da31c8da8e1fae6b79b)。
+本仓库为 **NPU-FSD-TianRacer 战队** 在 *Roboracer China 2025 申达杯* 比赛中的开源代码，包含完整的 ​**TianRacer 仿真环境**​，可用于算法验证、竞速策略开发以及实际演示。原理见方案讲解[视频](https://www.bilibili.com/video/BV19X8bzeEmM/?spm_id_from=333.1387.homepage.video_card.click&vd_source=5d9cf3e3921d7da31c8da8e1fae6b79b)。
 
-本项目基于 ​**ROS + Gazebo**​，提供可直接运行的多车仿真、路径规划与竞速控制程序。
+本项目基于 ​**ROS Noetic + Gazebo**​，提供可直接运行的多车仿真、路径规划与竞速控制程序。
 你可以直接运行我们的 baseline，也可以替换控制代码实现自己的竞速策略。
 
 ---
@@ -51,7 +51,7 @@ source devel/setup.bash
 roslaunch tianracer_gazebo demo_sim_two_tianracer.launch
 ```
 
-### **2. 运行官方 baseline 算法**
+### **2. 运行 baseline 算法**
 
 ```bash
 rosrun tianracer_navigation use_to_battle_fast1.py
@@ -79,7 +79,7 @@ rosrun tianracer_navigation use_to_battle_fast2.py
 
 ## 🏁 竞速性能对比 Racing Comparison
 
-若你想对比官方 baseline 与自己的算法：
+若你想对比 baseline 与自己的算法：
 
 * baseline：`use_to_battle_fast1.py`
 * 自定义：`use_to_battle_fast2.py`
@@ -112,7 +112,7 @@ Roboracer_China_2025/
 
 ## 🤝 致谢 Acknowledgment
 
-本项目由 [**西北工业大学·智能无人系统实验室（IUS-Lab）TianRacer 战队**](https://github.com/npu-ius-lab) 开发，用于推动学生在智能赛车、自主控制与机器人系统方向的学习与创新。
+本项目由 [**西北工业大学·智能无人系统实验室（IUS-Lab）FSD-TianRacer 战队**](https://github.com/npu-ius-lab) 开发，用于推动Roboracer无人车竞速的学习与创新。
 特别感谢 [**天之博特（Tianbot）**](https://github.com/tianbot) 的大力支持！
 
 
