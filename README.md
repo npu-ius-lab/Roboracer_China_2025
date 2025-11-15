@@ -112,7 +112,7 @@ Roboracer_China_2025/
 
 ## 🤝 致谢 Acknowledgment
 
-本项目由 [**西北工业大学·智能无人系统实验室（IUS-Lab）FSD-TianRacer 战队**](https://github.com/npu-ius-lab) 开发，用于推动Roboracer无人车竞速的学习与创新。
+本项目由 [**西北工业大学智能无人系统实验室（NPU-IUS-Lab）FSD-TianRacer 战队**](https://github.com/npu-ius-lab) 开发，用于推动Roboracer无人车竞速的学习与创新。
 特别感谢 [**天之博特（Tianbot）**](https://github.com/tianbot) 的大力支持！
 
 
